@@ -1,0 +1,18 @@
+body{
+    display:grid;
+    grid-template-areas: 
+    "nav main ";
+    min-width: 290px;
+    color: #4d4e53;
+    background-color: #ffffff;
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 1.5;
+}
+
+nav{
+    position: fixed;
+}
+main{
+    position: relative;
+    left: 300px;
+}
